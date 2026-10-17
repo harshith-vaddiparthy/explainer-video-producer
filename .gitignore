@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+profile.json
+local-profile.json
+private/
+output/
+recordings/
+*.mp4
+*.mov
+*.wav
+*.mp3

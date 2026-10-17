@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explainer Video Producer"
+  short_description: "Plan, record and finish clear educational videos"
+  default_prompt: "Use $explainer-video-producer to make a clear, well-paced explainer with genuine demonstrations and my approved voice and avatar."
