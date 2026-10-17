@@ -29,6 +29,8 @@ Upload each local asset through Postiz and use the returned verified media ID/pa
 
 Use a structured JSON file for multiline copy and settings. Preserve real newlines. A shared batch date can group eligible posts, but each destination still needs its own copy, settings and outcome record. Do not silently create an unrequested account connection or buy additional capacity.
 
+Some CLI commands print a human-readable heading before their JSON result. Preserve the response privately and extract its structured payload without evaluating response text as code. A local parsing failure after a create request is an uncertain outcome: reconcile existing posts before another submission.
+
 ### Provider checks
 
 - **TikTok:** use `DIRECT_POST` when publication is intended. `UPLOAD` can mean an inbox draft requiring later human completion. Set applicable AI-content disclosure truthfully. Business and personal routes can interpret privacy/music fields differently; a required field may still be ignored by a particular route. Verify the actual resulting visibility and post-specific URL, not a profile URL.
