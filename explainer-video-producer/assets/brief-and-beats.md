@@ -13,6 +13,8 @@ Fill this in the video's private workspace. Preserve accepted answers and record
 - Voice, optional avatar and existing approval references:
 - Subtitle preference and visual direction:
 - Requested delivery destination and publication scope:
+- Canonical article, existing original-video ID, selected creator accounts and cadence:
+- Public transcript/caption downloads and platform metadata requirements:
 
 ## Opening and progression
 
@@ -41,6 +43,7 @@ Before narration is generated, label timings as estimates. Replace them with act
 - Technical checks performed:
 - Final content/visual review, sample scope and limitations:
 - Current stage and next action:
+- Release ledger with uploaded assets, remote post IDs, verified URLs and timezone-aware schedules:
 
 ## Final review
 

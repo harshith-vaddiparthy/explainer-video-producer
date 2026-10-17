@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "example_not_submitted",
+  "episode_id": null,
+  "timezone": null,
+  "source": {
+    "sha256": null,
+    "original_video_id": null,
+    "original_video_url": null
+  },
+  "canonical_article": {
+    "url": null,
+    "revision": null,
+    "state": "prepared",
+    "verification": null
+  },
+  "clips": [],
+  "destinations": [],
+  "followups": [],
+  "pending_capabilities": [],
+  "next_action": "Fill only from the current brief and verified publication evidence"
+}

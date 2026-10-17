@@ -18,6 +18,7 @@ The profile can contain:
 | `capture` | Configured recorder route and supported surfaces |
 | `compositor` | Existing editor/render stack and its local documentation |
 | `storage` | Suitable durable production directory |
+| `distribution` | Canonical site/author identity, exact permitted creator accounts, configured publishing route and current policy references |
 
 References may be local file paths or protected configuration identifiers. Keep credentials in their established secret store; do not put raw tokens, keys, cookies or credential exports here. Keep this profile outside the public repository and outside public generated artifacts. Do not invent source assets or mark a profile approved because an example contains the word `approved`.
 
@@ -29,4 +30,4 @@ Inspect the relevant local recipe and current evidence. The user's latest reques
 
 A local reference to a course workflow supplies its applicable technical route, not unrelated tracker, runtime, messaging or delivery mandates. Preserve this skill's beat-driven pacing and the current brief. If a generic voice guide conflicts with a newer accepted transcript-conditioned recipe, use the documented accepted recipe.
 
-Public installs include the workflow and local media checker. They do not install a recorder, GPU server, voice model, InfiniteTalk, account credentials or a creator's face. Verify those separately. Skill-file synchronization across machines establishes file parity, not working services on each machine.
+Public installs include the workflow and local media checker. They do not install a recorder, GPU server, voice model, InfiniteTalk, publishing accounts, account credentials or a creator's face. Verify those separately. Skill-file synchronization across machines establishes file parity, not working services on each machine. A saved distribution profile identifies the route; the current request or a verified standing policy supplies the publishing scope.

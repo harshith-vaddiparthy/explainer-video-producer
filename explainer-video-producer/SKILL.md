@@ -1,6 +1,6 @@
 ---
 name: explainer-video-producer
-description: "Plan, produce or revise narrated educational explainers with genuine software walkthroughs, conceptual visuals and an optional approved avatar. Use for topic-to-video work, reference-video adaptation, teaching pace and screen-plus-presenter production."
+description: "Plan, produce, revise and repurpose educational explainers with genuine walkthroughs and an optional approved avatar. Use for teaching pace, companion blog articles, video metadata and transcripts, short clips, and authorized cross-platform publishing or scheduling."
 ---
 
 # Explainer Video Producer
@@ -12,7 +12,7 @@ Choose each visual for what it teaches. **There is no required screen-to-diagram
 ## Establish the job
 
 1. Read the current request, existing brief, accepted media and job state. Preserve earlier approvals and resume the smallest unfinished stage. An example's runtime, apps, number of segments or infrastructure are not defaults for a new job.
-2. Record the audience, starting knowledge, one-sentence outcome, why it matters, scope, actual products, desired runtime and whether that runtime is exact or approximate. Explain the proposed teaching progression before expensive work. Use [assets/brief-and-beats.md](assets/brief-and-beats.md) as a working document, not a form to force the user to complete.
+2. Record the audience, starting knowledge, one-sentence outcome, why it matters, scope, actual products, desired runtime and whether that runtime is exact or approximate. For a publishing request, also identify the canonical site, exact creator accounts, eligible destinations and cadence. Explain the proposed teaching progression before expensive work. Use [assets/brief-and-beats.md](assets/brief-and-beats.md) as a working document, not a form to force the user to complete.
 3. Discover the configured recorder, voice provider, optional avatar engine and compositor. If a local profile exists, load it as described in [environment-profile.md](references/environment-profile.md). Confirm actual availability before promising a dependent stage. Continue independent preparation if a capability is unavailable; identify that specific limitation.
 
 Keep the requested scope: a script-only or planning request ends with that artifact. Authorized full production continues through a playable, verified video. Publishing to a channel, sending messages, or updating client trackers needs authorization for that action; installing this skill provides none. Use a separate course operations workflow only when the task actually includes its trackers or delivery requirements.
@@ -52,8 +52,20 @@ Read [verification-and-delivery.md](references/verification-and-delivery.md) bef
 
 Keep a compact state file with the brief, accepted profile and media hashes, scene timings, source ranges, active job IDs, completed checks and next action. This is the continuation record; a long chat transcript is not required to resume.
 
+## Publish and repurpose when requested
+
+Read [publishing-and-scheduling.md](references/publishing-and-scheduling.md) before any publishing operation. An existing upload is an input to reuse, not a reason to upload the same film again. Inspect the actual account and publication ledger; a connection or a successful request alone does not establish a published result.
+
+- **Owned-site article, SEO/GEO and transcripts:** read [blog-seo-geo.md](references/blog-seo-geo.md). Publish a useful written explanation with the existing video embedded, readable source-grounded transcript, accurate metadata and a consistent author identity. Verify crawlable output separately from indexing or AI citation outcomes.
+- **Short clips:** read [short-clips.md](references/short-clips.md). Choose complete ideas from the transcript, frame the evidence for portrait viewing, and write each destination's copy for the idea and value. Runtime belongs in technical metadata; avoid promotional captions such as “watch this six-minute video.”
+- **Channel choice:** use the current capabilities and the content's fit. DEV is a substantive article/embed destination, Pinterest can carry an eligible video Pin, and TikTok requires its actual publishing mode. Dribbble requires genuine design work and an appropriate design artifact; an existing app demonstration does not become the creator's UI portfolio.
+- **Scheduling:** use explicit timezone-aware dates and the requested or agreed cadence. Distinguish queued, scheduled, published, failed and uncertain outcomes. Preserve remote IDs and reconcile an uncertain result before retrying. A future scheduled item is not published yet.
+
+Keep the canonical article, original video, each clip and each destination as separate records in [assets/release-ledger.example.json](assets/release-ledger.example.json). Report completed links, future schedules and specific remaining limitations. Publishing a skill does not authorize an indefinite recurring campaign or make every platform appropriate for every episode.
+
 ## Included resources
 
 - [Brief and beat sheet](assets/brief-and-beats.md): copy into a production workspace and fill with the current job.
 - [Environment profile](references/environment-profile.md): optional private adapter for existing tools and approved settings.
+- [Release ledger](assets/release-ledger.example.json): retain source, destination and scheduling identities for a distribution job.
 - [Third-party notices](THIRD_PARTY_NOTICES.md): pinned scriptwriting source and retained license notice.
