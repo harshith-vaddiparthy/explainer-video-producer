@@ -43,6 +43,7 @@ Reuse existing uploads and verify each destination separately.
 - [Companion articles and SEO/GEO](explainer-video-producer/references/blog-seo-geo.md): canonical pages, readable transcripts, accurate video/author metadata and crawl checks without indexing promises.
 - [Short-clip repurposing](explainer-video-producer/references/short-clips.md): complete ideas, legible portrait evidence, captions and suitable covers.
 - [Publishing and scheduling](explainer-video-producer/references/publishing-and-scheduling.md): Postiz capability checks, personal-account selection, platform adaptations and durable release receipts.
+- [Metadata and attribution](explainer-video-producer/references/media-metadata.md): clean descriptive exports, accurate creator fields and the distinction between file tags, SEO and platform AI labels.
 - A private environment profile adapter and reusable brief/beat sheet.
 - A local FFmpeg/FFprobe media checker, with tests. Its pass means technical checks passed, not that teaching or lip sync was approved.
 

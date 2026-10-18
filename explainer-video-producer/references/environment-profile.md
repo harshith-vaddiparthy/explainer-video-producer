@@ -19,6 +19,7 @@ The profile can contain:
 | `compositor` | Existing editor/render stack and its local documentation |
 | `storage` | Suitable durable production directory |
 | `distribution` | Canonical site/author identity, exact permitted creator accounts, configured publishing route and current policy references |
+| `media_metadata` | Verified creator name, role, website and export-tag policy; kept separate from platform disclosure preferences |
 
 References may be local file paths or protected configuration identifiers. Keep credentials in their established secret store; do not put raw tokens, keys, cookies or credential exports here. Keep this profile outside the public repository and outside public generated artifacts. Do not invent source assets or mark a profile approved because an example contains the word `approved`.
 

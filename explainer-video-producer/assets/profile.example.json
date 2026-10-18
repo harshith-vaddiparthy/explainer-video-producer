@@ -7,5 +7,6 @@
   "capture": null,
   "compositor": null,
   "storage": null,
-  "distribution": null
+  "distribution": null,
+  "media_metadata": null
 }
